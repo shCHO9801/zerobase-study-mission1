@@ -1,0 +1,89 @@
+.navbar {
+    overflow: hidden; /* 메뉴가 넘칠 경우에도 내용이 잘리는 것을 방지 */
+}
+
+.navbar a {
+    float: left;
+    display: block; /* 각 링크가 하나의 블록으로 처리됨 */
+    text-align: center;
+}
+
+.navbar a.separator {
+    pointer-events: none; /* 구분자 클릭 방지 */
+    padding: 0 5px;
+}
+
+.form-search {
+    padding: 15px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #e4e4e4;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #3fbd73;
+    color: white;
+}
+
+td {
+    padding: 15px;
+}
+
+.result-message {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.home-link {
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+}
+
+.info_table {
+    font-size: 14px;
+    margin: auto;
+
+    .gray {
+        background-color: #e7e7e8;
+    }
+
+    table {
+        width: 80%;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid #e4e4e4;
+    }
+
+    th {
+        width: 20%;
+        padding: 10px;
+        background-color: #23a162;
+        color: white;
+        text-align: center;
+    }
+
+    td {
+        padding: 15px;
+        text-align: left;
+    }
+}
